@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #74ebd5, #acb6e5);
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  padding: 2rem;
+  background-color: #ffffffdd;
+  margin-top: 4rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.input-form {
+  margin-bottom: 2rem;
+}
+
+select, button {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+select {
+  background-color: #f3f3f3;
+}
+
+button {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #6b8cff, #9178ff);
+}
+
+.result {
+  background-color: #f9fafc;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: inset 0 0 10px #ddd;
+}
+
+.result p {
+  text-align: left;
+  margin: 0.5rem 0;
+  color: #333;
+}
